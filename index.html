@@ -1,0 +1,124 @@
+<head>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<title>Home</title>
+<style>
+body{
+  margin:0;
+}
+.header{
+		width:100%;
+		height:70px;
+		background-color:white;
+		border-bottom:1px solid #f0f0f0;
+
+}
+.logo{
+  float:left;
+  margin-left: 40px;
+  margin-top:10px;
+}
+.nav-buttons{
+  float:right;
+  margin-right: 60px;
+  border-right:1px solid #f1f1f1;
+}
+.but{
+  height:100%;
+  border-left:1px solid #f1f1f1;
+  padding:0 20px 0 20px;
+  float:left;
+  font-family: Arial, sans-serif;
+  font-weight: 550;
+  color:#555;
+  text-align:center;
+  position: relative;
+}
+.but p{
+  margin:25px 0 25px 0;
+
+
+}
+
+.but-c{
+  padding:0;
+  width:calc(100% - 2px);
+  border-right:1px solid #f1f1f1;
+  border-top:1px solid #f1f1f1;
+
+}
+.but > .cont{
+   max-height: 0;
+   opacity: 0;
+  transition: max-height 0.5s, opacity 0.4s;
+
+}
+.but:hover > .cont{
+   max-height: 500px;
+   opacity: 1;
+   transition: max-height 1s, opacity 0.2s;
+}
+.cont:hover{
+  max-height: 500px;
+}
+.cont{
+  width:200px;
+  background-color:#fcfcfc;
+  border-bottom:1px solid #f0f0f0;
+  position: absolute;
+  overflow:hidden;
+  top:70px;
+  left:0;
+
+}
+.banner{
+  width:100%;
+  height:450px;
+  background:#44ff22;
+}
+.featured{
+  width:25%;
+  height:25vw;
+  background:#ff0000;
+  float:left;
+}
+</style>
+
+
+</head>
+<body>
+<div class="header">
+<div class="logo" ><img src="http://www.meta-biomed.com/images/default/main/logo.png" height="40px"/></div>
+<div class="nav-buttons">
+  <div class="but"><p>Company</p>
+    <div class="cont">
+        <div class="but but-c"><p>Company Overview</p></div>
+        <div class="but but-c"><p>Managment Philosophy</p></div>
+        <div class="but but-c"><p>Philosophy of Personnel Management</p></div>
+        <div class="but but-c"><p>Location Map</p></div>
+    </div>
+  </div>
+  <div class="but"><p>Products</p>
+    <div class="cont">
+      <div class="but but-c"><p>Dental</p></div>
+      <div class="but but-c"><p>Suture</p></div>
+      <div class="but but-c"><p>Medical</p></div>
+    </div>
+  </div>
+  <div class="but"><p>R&D</p>
+
+  </div>
+  <div class="but"><p>Contact Us</p>
+
+  </div>
+  <div class="but"><p>PR Zone</p>
+
+  </div>
+</div>
+</div>
+
+<div class="banner"></div>
+<div class="featured" style="background:#9923ff"></div>
+<div class="featured" style="background:#5233fe"></div>
+<div class="featured" style="background:#19f2ff"></div>
+<div class="featured" style="background:#993321"></div>
+</body>
