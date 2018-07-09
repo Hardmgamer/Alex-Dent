@@ -1,224 +1,10 @@
 <head>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <title>Home</title>
-<style>
-@import url('https://fonts.googleapis.com/css?family=Cairo');
-*{
-  font-family:"Cairo";
-}
-body{
-  margin:0;
-}
-.header{
-		width:100%;
-		height:70px;
-		background-color:white;
-		border-bottom:1px solid #f0f0f0;
-
-}
-.logo{
-  float:left;
-  margin-left: 40px;
-  margin-top:10px;
-}
-.nav-buttons{
-  float:right;
-  margin-right: 60px;
-  border-right:1px solid #f1f1f1;
-}
-.but{
-  height:100%;
-  border-left:1px solid #f1f1f1;
-  padding:0 20px 0 20px;
-  float:left;
-  font-family: Arial, sans-serif;
-  font-weight: 700;
-  color:#555;
-  text-align:center;
-  position: relative;
-  z-index:2;
-}
-.but p{
-  margin:20px 0 20px 0;
-}
-
-.but-c{
-  padding:0;
-  font-weight: 500;
-  width:calc(100% - 2px);
-  border-right:1px solid #f1f1f1;
-  border-top:1px solid #f1f1f1;
-  position: relative;
-  z-index:2;
-
-}
-.but > .cont{
-   max-height: 0;
-   opacity: 0;
-  transition: max-height 0.5s, opacity 0.4s;
-
-}
-.but:hover > .cont{
-   max-height: 500px;
-   opacity: 1;
-   transition: max-height 1s, opacity 0.2s;
-}
-.cont:hover{
-  max-height: 500px;
-}
-.cont{
-  width:200px;
-  background-color:#fcfcfc;
-  border-bottom:1px solid #f0f0f0;
-  position: absolute;
-  overflow:hidden;
-  top:70px;
-  left:0;
-
-}
-.banner{
-  width:100%;
-  height:500px;
-  position:relative;
-  overflow:hidden;
-}
-.banner-img{
-  width:100%;
-  height:500px;
-  background-size:cover;
-  background-position-y: -150px;
-  position:absolute;
-}
-.buttonNext{
-  width:50px;
-  height:50px;
-  opacity:0.6;
-  background:#888;
-  position: absolute;
-  z-index:100;
-  bottom:0;
-  left:100px;
-}
-.b-text {
-  text-shadow: 0px 0px 30px rgba(0,0,0,0.4);
-  top:150px;
-  left:100px;
-  position: absolute;
-  color:#fff;
-  margin:0;
-}
-.b-text h1,.b-text  p{
-
-  margin:0;
-  font-family:"Cairo", Arial;
-}
-.b-text h1{
-  font-size:60px;
-}
-.b-text p{
-font-size:30px;
-}
-.featured{
-  width:25%;
-  height:25vw;
-  background:#ff0000;
-  float:left;
-}
-.body{
-  width:calc(100% - 200px);
-  padding-left:200px;
-  padding-top:70px;
-  display:inline-block;
-  font-family:"Cairo", Arial;
-}
-.about h3,.about h1{
-  display:inline;
-  margin-right:10px;
-}
-.about h3,.about h4{
-  margin-top:10px;
-  font-size:20px;
-}
-.body h2{
-  margin-top:-20px;
-}
-.body li{
-  font-size:17px;
-  color:#3bceba;
-}
-.body li div{
-  color:#000;
-}
-.prod{
-width:100%;
-height:450px;
-background-color: #000;
-background-image:url('https://i.pinimg.com/originals/8f/09/90/8f09909d44e4e59d8fa80e5ee9ef2201.jpg');
-background-size: cover;
-background-position-y:-60px;
-position: absolute;
-}
-.prod-overlay{
-  width:100%;
-  height:450px;
-  opacity:0.7;
-background: #9704db;
-background: -moz-linear-gradient(-45deg, #9704db 0%, #0463e0 46%, #00d3d0 100%);
-background: -webkit-linear-gradient(-45deg, #9704db 0%,#0463e0 46%,#00d3d0 100%);
-background: linear-gradient(135deg, #9704db 0%,#0463e0 46%,#00d3d0 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9704db', endColorstr='#00d3d0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-position:absolute;
-}
-.prod-overlay-I{
-  width:100%;
-  height:450px;
-  opacity:0.6;
-  background: #000;
-  position:absolute;
-
-}
-.prod-t{
-  width:100%;
-  padding-top:30px;
-  height:420px;
-  color:#fff;
-  font-weight:1100;
-  position:absolute;
-  text-align:center;
-  text-transform:uppercase;
-}
-.prod-t h1{
-  font-size:40px;
-}
-.prod-t p{
-    font-weight: 800;
-}
-.prod-t a{
-    color:#77b2d5;
-}
-.prod-but{
-  width:130px;
-  padding:7px 0 7px 0;
-  border:2px solid #fff;
-  font-size:15px;
-  text-align:center;
-  text-transform:uppercase;
-  font-weight:800;
-  transition: background 0.5s;
-  color:#fff;
-}
-a{
-  text-decoration:none;
-}
-.prod-but:hover{
-background:rgba(255,255,255,0.2);
-transition: background 0.5s;
-}
-</style>
-
-
+<link rel="stylesheet" type="text/css" href="./indexStyle.css">
 </head>
 <body>
+<!--HEADER START-->
 <div class="header">
 <div class="logo" ><img src="http://www.meta-biomed.com/images/default/main/logo.png" height="40px"/></div>
 <div class="nav-buttons">
@@ -248,9 +34,12 @@ transition: background 0.5s;
   </div>
 </div>
 </div>
+<!--HEADER END-->
 
+<!--SLIDER START-->
 <div class="banner">
   <div id="b-container" style="position:relative; transition:left 0.4s, right 0.4s; left:0; right:0;">
+    <div style="position:relative;">
 <div class="banner-img" style="background-image:url(https://i.pinimg.com/originals/07/58/07/075807a6366fe9692500a7ab235f6a7c.jpg);">
 <div class="b-text">
 <h1>Number 1 in Egypt</h1>
@@ -258,15 +47,41 @@ transition: background 0.5s;
 </div>
 </div>
 </div>
-<div onClick="Next()" class="buttonNext"></div>
+
+<div style="position:relative; left:100%;">
+<div class="banner-img" style="background-image:url(https://i.pinimg.com/originals/07/58/07/075807a6366fe9692500a7ab235f6a7c.jpg);">
+<div class="b-text">
+<h1>Number 1 in Egypt</h1>
+<p>& Middle East</p>
+</div>
+</div>
+</div>
+
+<div style="position:relative; left:200%;">
+<div class="banner-img" style="background-image:url(https://i.pinimg.com/originals/07/58/07/075807a6366fe9692500a7ab235f6a7c.jpg);">
+<div class="b-text">
+<h1>Number 1 in Egypt</h1>
+<p>& Middle East</p>
+</div>
+</div>
+</div>
 
 </div>
 
+<div onClick="Next()" class="buttonNext b-button"><li class="	fa fa-angle-right"></li></div>
+<div onClick="Prev()" class="buttonPrev b-button"><li class="	fa fa-angle-left"></li></div>
+
+</div>
+<!--SLIDER END-->
+
+<!--FEATURED START-->
 <div class="featured" style="background:#9923ff"></div>
 <div class="featured" style="background:#5233fe"></div>
 <div class="featured" style="background:#19f2ff"></div>
 <div class="featured" style="background:#993321"></div>
+<!--FEATURED END-->
 
+<!--ABOUT START-->
 <div class="body">
 <div class="about">
   <h3>About</h3> <h1>Alex Dent</h1>
@@ -284,8 +99,13 @@ transition: background 0.5s;
 
 </ul>
 </div>
+<!--ABOUT END-->
 
-<div class="prod"><div class="prod-overlay"><div class="prod-overlay-I"></div>
+<!--PRODUCT-BOX START-->
+<div class="prod-container">
+
+<div class="prod">
+<div class="prod-overlay"><div class="prod-overlay-I"></div>
 </div></div>
 <div class="prod-t">
 
@@ -299,11 +119,49 @@ transition: background 0.5s;
     <a href="#"><div class="prod-but">View All</div></a>
   </center>
 </div>
-<script type="text/javascript">
+</div>
+<!--PRODUCT-BOX END-->
+<div class="map-container">
+<h1>Where to find us ?</h1>
+<center>
+<div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110552.46418856332!2d31.24119019003933!3d30.014917654143453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e5c6469d871%3A0xd9b5b2774fc264b5!2sAlex+Dent!5e0!3m2!1sen!2seg!4v1531125373516" width="800" height="450" frameborder="0" style="border-radius: 10px;"></iframe>
+</div>
+</center>
+</div>
+
+
+
+
+
+<script type="text/javascript"> /** Slider Script **/
+var Timer = window.setInterval(Next, 5000);
+z = 0;
+max = 2;
+x = document.getElementById("b-container");
 function Next(){
-  x = document.getElementById("b-container");
-  z = 0;
-x.style.left = z + 1 * 100 + "%";
+  clearInterval(Timer);
+  Timer = window.setInterval(Next, 5000);
+  if(z != max){
+    z = z + 1;
+    x.style.left = z * -100 + "%";
+}
+  else{
+    x.style.left = "0";
+    z = 0;
+  }
+}
+function Prev(){
+  clearInterval(Timer);
+  Timer = window.setInterval(Next, 5000);
+  if(z != 0){
+    z = z - 1;
+    x.style.left = z * -100 + "%";
+  }
+  else{
+    x.style.left = max * -100 + "%";
+    z = max;
+  }
 }
 </script>
 </body>

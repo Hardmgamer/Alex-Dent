@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+*{
+  font-family:"Cairo";
+}
+body{
+  margin:0;
+}
+.header{
+		width:100%;
+		height:70px;
+		background-color:white;
+		border-bottom:1px solid #f0f0f0;
+
+}
+.logo{
+  float:left;
+  margin-left: 40px;
+  margin-top:10px;
+}
+.nav-buttons{
+  float:right;
+  margin-right: 60px;
+  border-right:1px solid #f1f1f1;
+}
+.but{
+  height:100%;
+  border-left:1px solid #f1f1f1;
+  padding:0 20px 0 20px;
+  float:left;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  color:#555;
+  text-align:center;
+  position: relative;
+  z-index:2;
+}
+.but p{
+  margin:20px 0 20px 0;
+}
+
+.but-c{
+  padding:0;
+  font-weight: 500;
+  width:calc(100% - 2px);
+  border-right:1px solid #f1f1f1;
+  border-top:1px solid #f1f1f1;
+  position: relative;
+  z-index:2;
+
+}
+.but > .cont{
+   max-height: 0;
+   opacity: 0;
+  transition: max-height 0.5s, opacity 0.4s;
+
+}
+.but:hover > .cont{
+   max-height: 500px;
+   opacity: 1;
+   transition: max-height 1s, opacity 0.2s;
+}
+.cont:hover{
+  max-height: 500px;
+}
+.cont{
+  width:200px;
+  background-color:#fcfcfc;
+  border-bottom:1px solid #f0f0f0;
+  position: absolute;
+  overflow:hidden;
+  top:70px;
+  left:0;
+
+}
+.banner{
+  width:100%;
+  height:500px;
+  position:relative;
+  overflow:hidden;
+}
+.banner-img{
+  width:100%;
+  height:500px;
+  background-size:cover;
+  background-position-y: -150px;
+  position:absolute;
+}
+.b-button{
+  width:50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  opacity:0.6;
+  background:#fff;
+  position: absolute;
+  z-index:100;
+  text-align:center;
+  font-size:30px;
+  transition:opacity 0.4s;
+}
+.b-button:hover{
+  opacity:0.9;
+  transition:opacity 0.4s;
+}
+.buttonNext{
+  bottom:40px;
+  left:200px;
+}
+
+.buttonPrev{
+  bottom:40px;
+  left:130px;
+}
+.b-text {
+  text-shadow: 0px 0px 30px rgba(0,0,0,0.4);
+  top:150px;
+  left:100px;
+  position: absolute;
+  color:#fff;
+  margin:0;
+}
+.b-text h1,.b-text  p{
+
+  margin:0;
+  font-family:"Cairo", Arial;
+}
+.b-text h1{
+  font-size:60px;
+}
+.b-text p{
+font-size:30px;
+}
+.featured{
+  width:25%;
+  height:25vw;
+  background:#ff0000;
+  float:left;
+}
+.body{
+  width:calc(100% - 200px);
+  padding-left:200px;
+  padding-top:70px;
+  display:inline-block;
+  font-family:"Cairo", Arial;
+}
+.about h3,.about h1{
+  display:inline;
+  margin-right:10px;
+}
+.about h3,.about h4{
+  margin-top:10px;
+  font-size:20px;
+}
+.body h2{
+  margin-top:-20px;
+}
+.body li{
+  font-size:17px;
+  color:#3bceba;
+}
+.body li div{
+  color:#000;
+}
+.prod-container{
+  width:100%;
+  height:450px;
+}
+.prod{
+width:100%;
+height:450px;
+background-color: #000;
+background-image:url('https://i.pinimg.com/originals/8f/09/90/8f09909d44e4e59d8fa80e5ee9ef2201.jpg');
+background-size: cover;
+background-position-y:-60px;
+position: absolute;
+}
+.prod-overlay{
+  width:100%;
+  height:450px;
+  opacity:0.7;
+background: #9704db;
+background: -moz-linear-gradient(-45deg, #9704db 0%, #0463e0 46%, #00d3d0 100%);
+background: -webkit-linear-gradient(-45deg, #9704db 0%,#0463e0 46%,#00d3d0 100%);
+background: linear-gradient(135deg, #9704db 0%,#0463e0 46%,#00d3d0 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9704db', endColorstr='#00d3d0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+position:absolute;
+}
+.prod-overlay-I{
+  width:100%;
+  height:450px;
+  opacity:0.6;
+  background: #000;
+  position:absolute;
+
+}
+.prod-t{
+  width:100%;
+  padding-top:30px;
+  height:420px;
+  color:#fff;
+  font-weight:1100;
+  position:absolute;
+  text-align:center;
+  text-transform:uppercase;
+}
+.prod-t h1{
+  font-size:40px;
+}
+.prod-t p{
+    font-weight: 800;
+}
+.prod-t a{
+    color:#77b2d5;
+}
+.prod-but{
+  width:130px;
+  padding:7px 0 7px 0;
+  border:2px solid #fff;
+  font-size:15px;
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:800;
+  transition: background 0.5s;
+  color:#fff;
+}
+a{
+  text-decoration:none;
+}
+.prod-but:hover{
+background:rgba(255,255,255,0.2);
+transition: background 0.5s;
+}
+.map-container{
+  width:100%;
+  padding-top:50px;
+  padding-bottom:60px;
+  text-align:center;
+}
+.map-container h1{
+  margin:0;
+}
+.map{
+  padding:6px;
+  border-radius:14px;
+  border:1px solid #eee;
+  width:800px;
+}
