@@ -255,7 +255,7 @@ transition: background 0.5s;
   z-index:-100;
 }
 .map-p{
-  background-image:url('./Map.jpg');
+  background-image:url('../Images/Map.jpg');
   background-size:cover;
   background-repeat: no-repeat;
 }
