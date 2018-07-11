@@ -2,8 +2,11 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <title>Home</title>
 <link rel="stylesheet" type="text/css" href="./Stylesheets/indexStyle.css">
+<link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
+
 </head>
 <body>
+
 <!--HEADER START-->
 <div class="header">
 <div class="logo" ><img src="http://www.meta-biomed.com/images/default/main/logo.png" height="40px"/></div>
@@ -122,6 +125,7 @@
 </div>
 </div>
 <!--PRODUCT-BOX END-->
+
 <!--MAP START-->
 <div class="map-container">
   <div class="map-back map-p"></div>
@@ -135,35 +139,5 @@
 </center>
 </div>
 <!--MAP END-->
-
-<script type="text/javascript"> /** Slider Script **/
-var Timer = window.setInterval(Next, 5000),
-z = 0,
-max = 2,
-x = document.getElementById("b-container");
-function Next(){
-  clearInterval(Timer);
-  Timer = window.setInterval(Next, 5000);
-  if(z != max){
-    z = z + 1;
-    x.style.left = z * -100 + "%";
-}
-  else{
-    x.style.left = "0";
-    z = 0;
-  }
-}
-function Prev(){
-  clearInterval(Timer);
-  Timer = window.setInterval(Next, 5000);
-  if(z != 0){
-    z = z - 1;
-    x.style.left = z * -100 + "%";
-  }
-  else{
-    x.style.left = max * -100 + "%";
-    z = max;
-  }
-}
-</script>
+<script type="text/javascript" src="./js/Slider.js"></script>
 </body>
