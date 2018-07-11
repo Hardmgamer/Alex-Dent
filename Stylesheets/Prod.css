@@ -80,6 +80,10 @@ height:100px;
 width:100%;
 text-align:center;
 font-size:20px;
+transition:bottom 0.1s;
+}
+.product:hover .prod-text{
+  bottom:-3px;
 }
 .out{
   color:#992222;
@@ -107,6 +111,7 @@ font-size:20px;
   bottom:-19px;
 } */
 #productDet{
+  display:none;
   top:0;
   position:fixed;
   width:100%;
@@ -151,8 +156,8 @@ font-size:20px;
   font-size:20px;
 }
 .ProdButton{
+  border-radius:5px;
   padding:7px 10px;
-  padding-left:30px;
   display: inline-block;
   color:#fff;
   font-size:15px;
@@ -161,4 +166,7 @@ font-size:20px;
   margin-top:10px;
   float:left;
 }
-.ProdButton{
+.ProdButton span{
+  margin-right:7px;
+  font-size:17px;
+}
