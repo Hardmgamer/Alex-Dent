@@ -1,40 +1,16 @@
+<?php
+include_once('./classes/DB.php');
+?>
 <head>
   <title>Products</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
   <link rel="stylesheet" type="text/css" href="./Stylesheets/Prod.css">
 </head>
+
 <body>
   <!--HEADER START-->
-  <div class="header">
-  <div class="logo" ><img src="http://www.meta-biomed.com/images/default/main/logo.png" height="40px"/></div>
-  <div class="nav-buttons">
-    <div class="but"><p>Company</p>
-      <div class="cont">
-          <div class="but but-c"><p>Company Overview</p></div>
-          <div class="but but-c"><p>Managment Philosophy</p></div>
-          <div class="but but-c"><p>Philosophy of Personnel Management</p></div>
-          <div class="but but-c"><p>Location Map</p></div>
-      </div>
-    </div>
-    <div class="but"><p>Products</p>
-      <div class="cont">
-        <div class="but but-c"><p>Dental</p></div>
-        <div class="but but-c"><p>Suture</p></div>
-        <div class="but but-c"><p>Medical</p></div>
-      </div>
-    </div>
-    <div class="but"><p>R	&amp;D</p>
-
-    </div>
-    <div class="but"><p>Contact Us</p>
-
-    </div>
-    <div class="but"><p>PR Zone</p>
-
-  </div>
-</div>
-  </div>
+  <?php include('./header.html'); ?>
   <!--HEADER END-->
   <!--TOP (AND CATEGORY BUTTONS) START -->
 <div class="timg">
