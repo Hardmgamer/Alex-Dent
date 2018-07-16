@@ -14,3 +14,57 @@
 h1,p{
   color:#222326;
 }
+h1{
+  margin-bottom: -9px;
+}
+a{
+    color: #1db954;
+    text-decoration: none;
+  }
+a:hover, a:focus{
+    color: #06100a;
+    text-decoration: none;
+  }
+.locations{
+    padding-left: 70px;
+  }
+.ElSayeda{
+    width:200px;
+    margin-left: 10px;
+  }
+.ElSayeda h4{
+    margin-bottom: -20px;
+  }
+.locations p{
+    margin-bottom: -20px;
+    }
+.Nasr{
+      width:200px;
+      margin-left: 240px;
+      margin-top: -163px;
+    }
+.Nasr h4{
+      margin-bottom: -20px;
+    }
+.opening{
+  margin-left: 700px;
+  margin-top: -100px;
+}
+.ElSayeda2{
+    width:200px;
+    margin-left: 10px;
+  }
+.ElSayeda2 h4{
+    margin-bottom: -20px;
+  }
+.Nasr2{
+      width:200px;
+      margin-left: 240px;
+      margin-top: -257px;
+    }
+.Nasr2 h4{
+      margin-bottom: -20px;
+    }
+p{
+  color: #222326;
+}

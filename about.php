@@ -2,9 +2,9 @@
   <title>About us</title>
   <link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
   <link rel="stylesheet" type="text/css" href="./Stylesheets/about.css">
-  <?php include('./header.html'); ?>
-  <?php include('./footer.html'); ?>
 </head>
+<?php include('./header.html'); ?>
+<?php include('./footer.html'); ?>
 <body>
   <div class="box">
     <div class="aboutus">
@@ -14,7 +14,33 @@
     </div>
     <div class="Contacting">
       <h1>Alexdent Contacting</h1>
-      <p> you can reach us on 01008560784
+      <p> you can reach us on this number 01001406378</p>
+      <p><a href="./contactus.php"><strong>Contact us</strong></a>, Check this link for contacting with us via our website you can send your issues,your unavailable product and anything you want!</p>
+      <p>You can Email us on this adress heshamelsheikh79@yahoo.com</p>
     </div>
+  <div class="locations">
+      <h1>Our Store locations</h1>
+      <div class="ElSayeda">
+      <h4>Alexdent El-Sayeda Zainab</h4>
+      <p>Al Inshaa WA Al Munirah, El-Sayeda Zainab, Cairo Governorate</p>
+      <p>Phone: 01001408609</p>
+    </div>
+    <div class="Nasr">
+      <h4>Alexdent Nasr city</h4>
+      <p>Manteqet Al Cinema, Nasr City, Cairo Governorate</p>
+      <p>Phone: 01001842713</p>
+    </div>
+  </div>
+  </div>
+  <div class="opening">
+    <h1>Opening times</h1>
+    <div class="ElSayeda2">
+    <h4>El-Sayeda Zainab</h4>
+    <p>Monday: 10AM–7PM<br>Tuesday: 10AM–7PM<br>Wednesday: 10AM–7PM<br>Thursday: 10AM–7PM<br>Friday Closed<br>Saturday: 10AM–7PM<br>Sunday: 10AM–7PM</p>
+  </div>
+  <div class="Nasr2">
+    <h4>Nasr city</h4>
+    <p>Monday: 10AM–8:30PM<br>Tuesday: 10AM–8:30PM<br>Wednesday: 10AM–8:30PM<br>Thursday: 10AM–8:30PM<br>Friday Closed<br>Saturday: 10AM–8:30PM<br>Sunday: 10AM–8:30PM</p>
+  </div>
   </div>
 </body>
