@@ -1,0 +1,16 @@
+.box{
+  padding-top: 25px;
+}
+.aboutus{
+  width: 550px;
+  padding-left: 70px;
+}
+.Contacting{
+  position: absolute;
+  width: 350px;
+  margin-left: 700px;
+  margin-top: -240px;
+}
+h1,p{
+  color:#222326;
+}
