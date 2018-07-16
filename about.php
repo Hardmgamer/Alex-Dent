@@ -1,5 +1,6 @@
 <head>
   <title>About us</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
   <link rel="stylesheet" type="text/css" href="./Stylesheets/about.css">
 </head>
