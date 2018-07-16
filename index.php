@@ -3,7 +3,7 @@
 <title>Home</title>
 <link rel="stylesheet" type="text/css" href="./Stylesheets/indexStyle.css">
 <link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
-<?php include('./footer.html'); ?>
+
 </head>
 <body>
 
@@ -111,5 +111,6 @@
 </center>
 </div>
 <!--MAP END-->
+<?php include('./footer.html');?>
 <script type="text/javascript" src="./js/Slider.js"></script>
 </body>

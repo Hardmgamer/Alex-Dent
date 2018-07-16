@@ -83,7 +83,7 @@ cursor:pointer;
 .footer{
   bottom:0;
   width:100%;
-  background-color:#333;
+  background-color:#272b33;
   position:absolute;
 
 }
@@ -114,7 +114,7 @@ cursor:pointer;
   width:calc(50% - 100px);
   padding-top:40px;
   border-top:1px solid #bbb;
-  background-color:#333;
+  background-color:#272b33;
   padding-left:100px;
   padding-bottom:30px;
 
@@ -124,7 +124,7 @@ cursor:pointer;
   width:calc(50% - 20px);
   padding-left:20px;
   padding-top:40px;
-  background-color:#333;
+  background-color:#272b33;
   border-top:1px solid #bbb;
   font-size:16px;
 }
@@ -142,7 +142,7 @@ cursor:pointer;
 .f-bottom{
   float:left;
   width:calc(100% - 200px);
-  background-color:#222;
+  background-color:#21242b;
   padding:10px 100px 10px 100px;
   color:#fff;
   font-size:14px;

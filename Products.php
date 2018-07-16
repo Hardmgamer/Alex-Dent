@@ -90,7 +90,7 @@ include_once('./classes/DB.php');
         </center>
       </div>
     </div>
-<div>
 </div>
+<?php include('./footer.html');?>
 <script type="text/javascript" src="./js/ProductBox.js"></script>
 </body>
