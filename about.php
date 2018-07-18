@@ -22,21 +22,22 @@
   <div class="locations">
       <h1>Our Store locations</h1>
       <div class="ElSayeda">
-      <h4>Alexdent El-Sayeda Zainab</h4>
-      <p>Al Inshaa WA Al Munirah, El-Sayeda Zainab, Cairo Governorate</p>
-      <p>Phone: 01001408609</p>
+      <h4>Alexdent Kasr El Einy</h4>
+      <p>31 El Rashidi St., Kasr El Einy, Shaheen Medical Mall, Cairo, Egypt</p>
+      <p>Phone: +20 100 140 6378</p>
+      <p>Phone: +20 100 140 8609</p>
     </div>
     <div class="Nasr">
       <h4>Alexdent Nasr city</h4>
-      <p>Manteqet Al Cinema, Nasr City, Cairo Governorate</p>
-      <p>Phone: 01001842713</p>
+      <p>60 El Tayran St., Nasr City, Cairo, Egypt</p>
+      <p>Phone: +20 100 184 2713</p>
     </div>
   </div>
   </div>
   <div class="opening">
     <h1>Opening times</h1>
     <div class="ElSayeda2">
-    <h4>El-Sayeda Zainab</h4>
+    <h4>Kasr El Einy</h4>
     <p>Monday: 10AM–7PM<br>Tuesday: 10AM–7PM<br>Wednesday: 10AM–7PM<br>Thursday: 10AM–7PM<br>Friday Closed<br>Saturday: 10AM–7PM<br>Sunday: 10AM–7PM</p>
   </div>
   <div class="Nasr2">
