@@ -34,7 +34,7 @@
             </td>
             <th class="quantity">
               <input type="text">
-            </td>
+            </th>
             <th class="Av">
               <spin>In stock</spin>
             </th>
