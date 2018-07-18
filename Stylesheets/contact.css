@@ -1,0 +1,52 @@
+
+.Sectiona h1{
+  text-align: center;
+  color:#666666;
+}
+.contacting{
+  font-family: 'Montserrat', serif;
+  height: 800px;
+  width: 340px;
+  float: left;
+  padding-left: 800px;
+}
+input[type=text], input[type=email],textarea,input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #0c6dc0;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0e81e2;
+}
+
+.formcont {
+    width: 330px;
+    margin-left: 890px;
+    border-radius: 5px;
+    padding: 20px;
+    color:#666666;
+}
+.texting{
+  float: left;
+  margin-top: -400px;
+  margin-left: 50px;
+}
+.texting p{
+  color:#666666;
+}
