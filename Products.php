@@ -11,6 +11,7 @@ include_once('./classes/DB.php');
 <body>
   <!--HEADER START-->
   <?php include('./header.html'); ?>
+  <?php include('./footer.html'); ?>
   <!--HEADER END-->
   <!--TOP (AND CATEGORY BUTTONS) START -->
 <div class="timg">
