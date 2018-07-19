@@ -57,7 +57,7 @@ display: inline-block;
 width: 50px;
 text-align: center;
 }
-input[type="text"]{
+.quant{
 border: 1px solid #7dcbb6;
 color: #5c5c5c;
 }
