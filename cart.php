@@ -33,6 +33,12 @@
             </th>
             <th class="quantity">
               <input type="text">
+<<<<<<< HEAD
+            </th>
+            <th class="Av">
+              <spin>In stock</spin>
+=======
+>>>>>>> 48d50498d1f698062b27fb0f2f0797dfeba545a1
             </th>
           </tr>
         </tbody>
