@@ -4,24 +4,23 @@
   <link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
   <link rel="stylesheet" type="text/css" href="./Stylesheets/about.css">
 </head>
-<?php include('./header.html'); ?>
-<?php include('./footer.html'); ?>
 <body>
-  <div class="box">
+  <?php include('./header.html'); ?>
     <div class="aboutus">
       <h1> About us </h1>
       <p>Alex dent is an Importers dental products company which founded on mm/dd/yyyy it aims to help dents with products.</p>
       <p>There are every product you want on our store. So whether you’re working on dental hospital, a private dental place, the right prudcts are always helping you with your work. Choose what you want to buy to, and visit us to take it.</p>
     </div>
     <div class="Contacting">
-      <h1>Alexdent Contacting</h1>
-      <p> you can reach us on this number 01001406378</p>
-      <p><a href="./contactus.php"><strong>Contact us</strong></a>, Check this link for contacting with us via our website you can send your issues,your unavailable product and anything you want!</p>
-      <p>You can Email us on this adress heshamelsheikh79@yahoo.com</p>
+      <h1>Contact Us</h1>
+      <p>You can reach us on this phone numbers (+20 100 140 6378 , +20 100 140 8609)</p>
+      <p>Or telephone (+2 022 363 431)</p>
+      <p>You can Email us on this address heshamelsheikh79@yahoo.com</p>
+      <p>Or you can <a href="./contactus.php"><strong>Contact us</strong></a> directly</p>
     </div>
   <div class="locations">
-      <h1>Our Store locations</h1>
-      <div class="ElSayeda">
+      <h1>Our Store Locations</h1>
+      <div class="Kasr">
       <h4>Alexdent Kasr El Einy</h4>
       <p>31 El Rashidi St., Kasr El Einy, Shaheen Medical Mall, Cairo, Egypt</p>
       <p>Phone: +20 100 140 6378</p>
@@ -32,7 +31,6 @@
       <p>60 El Tayran St., Nasr City, Cairo, Egypt</p>
       <p>Phone: +20 100 184 2713</p>
     </div>
-  </div>
   </div>
   <div class="opening">
     <h1>Opening times</h1>
@@ -45,4 +43,7 @@
     <p>Monday: 10AM–8:30PM<br>Tuesday: 10AM–8:30PM<br>Wednesday: 10AM–8:30PM<br>Thursday: 10AM–8:30PM<br>Friday Closed<br>Saturday: 10AM–8:30PM<br>Sunday: 10AM–8:30PM</p>
   </div>
   </div>
+
+  <?php include('./footer.html'); ?>
+
 </body>

@@ -3,36 +3,45 @@
 }
 .aboutus{
   width: 550px;
-  padding-left: 70px;
+  height:300px;
+  margin-left: 50px;
+  display: inline-block;
 }
 .Contacting{
-  position: absolute;
-  width: 350px;
-  margin-left: 700px;
-  margin-top: -240px;
+  width: 550px;
+  height:300px;
+  margin-left:50px;
+  display: inline-block;
+}
+.Contacting p{
+  margin:0;
 }
 h1,p{
   color:#222326;
+
 }
 h1{
   margin-bottom: -9px;
 }
 a{
-    color: #1db954;
+    color: #24a59f;
     text-decoration: none;
   }
 a:hover, a:focus{
-    color: #24e267;
-    text-decoration: none;
+    text-decoration: underline;
   }
 .locations{
-    padding-left: 70px;
+    margin-left: 50px;
+    width:550px;
+    height:300px;
+    display: inline-block;
+
   }
-.ElSayeda{
+.Kasr{
     width:200px;
     margin-left: 10px;
   }
-.ElSayeda h4{
+.Kasr h4{
     margin-bottom: -20px;
   }
 .locations p{
@@ -47,8 +56,9 @@ a:hover, a:focus{
       margin-bottom: -20px;
     }
 .opening{
-  margin-left: 700px;
-  margin-top: -100px;
+height:550px;
+display: inline-block;
+margin-left: 50px;
 }
 .ElSayeda2{
     width:200px;
