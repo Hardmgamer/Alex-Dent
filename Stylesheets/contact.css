@@ -10,7 +10,7 @@
   float: left;
   padding-left: 800px;
 }
-input[type=text], input[type=email],textarea,input[type=tel]{
+.formcont input[type=text], input[type=email],textarea,input[type=tel]{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -20,7 +20,7 @@ input[type=text], input[type=email],textarea,input[type=tel]{
     box-sizing: border-box;
 }
 
-input[type=submit] {
+.formcont input[type=submit] {
     width: 100%;
     background-color: #0c6dc0;
     color: white;
