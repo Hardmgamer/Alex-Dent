@@ -123,4 +123,8 @@ position: relative;
 	float:right;
 	height:600px;
 	background:#fefefe;
+  transition:width 0.5s;
+}
+.body-large{
+  width:calc(100% - 51px) !important;
 }
