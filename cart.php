@@ -32,7 +32,7 @@
               <spin>XXXX</spin>
             </th>
             <th class="quantity">
-              <input type="text">
+              <input class="quant" type="text">
             </th>
           </tr>
         </tbody>
