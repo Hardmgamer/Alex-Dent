@@ -1,0 +1,54 @@
+#menu-icon{
+  height:25px;
+  width:25px;
+  position: absolute;
+  top:calc(10% - 3px);
+  left:12px;
+  cursor: pointer;
+}
+.menu-icon{
+  height:3px;
+  width:25px;
+  background-color:#000;
+  float:left;
+  transition: background-color 0.3s, top 0.3s, transform 0.3s;
+}
+.menu-icon::before{
+content:'';
+position:absolute;
+height:3px;
+width:25px;
+background-color:#000;
+top:7px;
+transition: background-color 0.3s, top 0.3s, transform 0.3s;
+
+}
+.menu-icon::after{
+content:'';
+position:absolute;
+height:3px;
+width:25px;
+background-color:#000;
+top:-7px;
+transition: background-color 0.3s, top 0.3s, transform 0.3s;
+
+}
+.menu-icona .menu-icon{
+  background:transparent;
+}
+.menu-icona .menu-icon::before{
+  content:'';
+  position:absolute;
+  height:3px;
+  width:25px;
+  top:0px;
+  transform:rotate(45deg);
+}
+.menu-icona .menu-icon::after{
+  content:'';
+  position:absolute;
+  height:3px;
+  width:25px;
+  top:0px;
+  transform:rotate(-45deg);
+}
