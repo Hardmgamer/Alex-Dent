@@ -43,8 +43,6 @@ text-decoration: none;
 .image img{
 width: 100%;
 }
-.cart-item .Pname {
-}
 .cart-name{
   position: absolute;
   top: calc(50% - 15px);
