@@ -84,6 +84,7 @@ cursor:pointer;
   height:0px;
   position: relative;
   transition: height 0.4s;
+  overflow: hidden;
 }
 .searchBox{
   width:90%;
