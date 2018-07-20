@@ -77,8 +77,8 @@
 		</ul>
 	</div>
 	<div class="butt-cont">
-		<input type="submit" value="Save" name="submit" class="savebuttn">
-		<input type="submit" value="Preview" name="submit" class="Previewbuttn">
+		<input type="submit" value="Save" name="submit" class="form-butt">
+		<input type="submit" value="Preview" name="submit" class="form-butt">
 	</div>
 	</div>
 </form>
