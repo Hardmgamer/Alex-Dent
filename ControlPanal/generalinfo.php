@@ -1,5 +1,5 @@
-<div class="Settings">
-  <div class="Settingtext generalinformationtext"><i class="fas fa-cog"></i><p>Settings > General Information</p></div>
+<div class="heading">
+  <div class="Textheading"><i class="fas fa-cog"></i><p>Settings > General Information</p></div>
 </div>
 <div class="generalinfo">
   <form action="#" method="get">

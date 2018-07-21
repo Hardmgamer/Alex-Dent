@@ -28,7 +28,8 @@
 </div>
 <div id="body" class="body-large">
 	<!-- <?php include('./ControlPanal/controlpanaldashboard.php'); ?> -->
-	<?php include('./ControlPanal/generalinfo.php'); ?>
+	<!-- <?php include('./ControlPanal/generalinfo.php'); ?> -->
+	<?php include('./ControlPanal/members.php'); ?>
 </div>
 
 </body>
