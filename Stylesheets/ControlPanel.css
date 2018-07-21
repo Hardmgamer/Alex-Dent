@@ -21,11 +21,14 @@ body{
 }
 #side{
 	width:300px;
-  height:100%;
+  height:calc(100% - 55px);
+	top:55px;
 	border-right:1px solid #f0f0f0;
 	float:left;
   overflow:hidden;
   transition:width 0.5s;
+	position:fixed;
+	background-color:#282b33;
 }
 #side p{
 margin:0;
@@ -51,8 +54,9 @@ width:100%;
 .prof{
 	width:100%;
 	height:200px;
-	background-color:#f8f8f8;
+	background-color:#21242b;
   position:relative;
+	color:#f9f9f9;
 }
 .username-cont{
   width:200;
@@ -91,10 +95,10 @@ width:100%;
   transition:width 0.4s, height 0.4s, top 0.4s, padding-left 0.4s;
 }
 .menu div{
-	color:#666;
+	color:#f9f9f9;
 	padding:20px;
-	background-color:#fff;
-	border-bottom:1px solid #f0f0f0;
+	background-color:#282b33;
+	border-bottom:1px solid #1C1E24;
 	font-family: Arial,sans-serif;
 	transition: color 0.3s, background-color 0.3s, padding 0.3s;
 }
@@ -117,8 +121,8 @@ position: relative;
   border-radius:50%;
 }
 .menu div:hover{
-	color:#333;
-	background-color:#f0f0f0;
+	color:#fff;
+	background-color:#3B3F4A;
 	transition: color 0.3s, background-color 0.3s;
 
 }
