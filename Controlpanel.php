@@ -23,7 +23,6 @@
 	<div><i class="fas fa-cog"></i><p>Settings</p></div>
 	<div><i class="fab fa-telegram-plane"></i><p class="new-not">Inqueries</p></div>
 	<div><i class="fas fa-chart-line"></i><p>Insights</p></div>
-
 </div>
 </div>
 <div id="body" class="body-large">
