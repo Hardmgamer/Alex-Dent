@@ -3,7 +3,8 @@
 <link rel="stylesheet" href="./Stylesheets/ControlPanel.css">
 <link rel="stylesheet" href="./Stylesheets/icons.css">
 <title>Control Panel</title>
-
+<script src="./js/sidebar.js"></script>
+<script src="./js/sidescroll.js"></script>
 </head>
 <body onscroll="scroll()">
 <div class="header">
@@ -83,42 +84,5 @@
 	</div>
 </form>
 </div>
-<script>
-var i = 0;
-function menu(){
-	var x = document.getElementById('menu-icon');
-	var side = document.getElementById('side');
-	var profpic = document.getElementById('prof-pic');
-	var body = document.getElementById('body');
-	if(i == 0){
-		x.classList.add("menu-icona");
-		body.classList.remove("body-large");
-		side.classList.remove("side-small");
-		profpic.classList.remove("prof-pic-small");
-		i = 1;
-	}else{
-		x.classList.remove("menu-icona");
-		body.classList.add("body-large");
-		side.classList.add("side-small");
-		profpic.classList.add("prof-pic-small");
 
-		i = 0;
-	}
-}
-function scroll(){
-var y = window.scrollY;
-var side = document.getElementById('side');
-console.log(y);
-if(y < 55){
-	var z = 55 - y;
-	side.style.top = z + 'px';
-	side.style.height = 'calc(100% - ' + z + 'px)';
-}
-else{
-	side.style.top = '0px';
-	side.style.height = '100%';
-
-	}
-}
-</script>
 </body>
