@@ -4,11 +4,6 @@
 <?php
 $Administrators = array("Dr.Hisham","Administrator2");
 $Moderators = array("Moderator1","Moderator2","Moderator3","Moderator4");
-$colors = array("red","cyan","blue","yellow");
-$circles = null;
-foreach ($colors as $color) {
-	$circles="<div class=\"circle\" style=\"background-color:$color\"></div>";
-}
  ?>
 
 <div class="catagory">
@@ -19,7 +14,7 @@ foreach ($colors as $color) {
 		<ul>
       <?php
 			foreach ($Administrators as $Administrator) {
-				echo  "$circles <li>$Administrator</li>";
+				echo  "<li>$Administrator</li>";
 			}
 			?>
 		</ul>
@@ -31,7 +26,7 @@ foreach ($colors as $color) {
 		<ul>
 			<?php
 			foreach ($Moderators as $Modeator) {
-				echo "$circles <li>$Modeator</li>";
+				echo "<li>$Modeator</li>";
 			}
 			?>
 		</ul>

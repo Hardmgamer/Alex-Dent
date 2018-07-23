@@ -1,0 +1,26 @@
+.Members{
+	width: 130px;
+}
+.Members p{
+padding-left: 5px;
+}
+.catagory{
+margin-top: 50px;
+margin-left: 130px;
+}
+.catagory-name{
+	width: 180px;
+}
+.catagory-name p{
+ font-size: 25px;
+ border-bottom: 1px solid #a5a5a5;
+}
+.catagory-members{
+	margin-top: -3px;
+	margin-left:-10px;
+}
+.catagory-members ul li{
+font-size: 20px;
+padding-bottom: 15px;
+margin-right: 10px;
+}

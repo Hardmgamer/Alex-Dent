@@ -1,5 +1,5 @@
-<div class="Settings">
-	<div class="Settingtext"><i class="fas fa-cog"></i><p>Settings</p></div>
+<div class="Heading">
+	<div class="Textheading"><i class="fas fa-cog"></i><p>Settings</p></div>
 </div>
 <div class="GeneralS">
 	<div class="giheader"><h3>General information</h3></div>
