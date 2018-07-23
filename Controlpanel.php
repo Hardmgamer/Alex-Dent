@@ -11,6 +11,7 @@ if(isset($_GET['page'])){
 <link rel="stylesheet" href="./Stylesheets/icons.css">
 <link rel="stylesheet" href="./Stylesheets/insights.css">
 <link rel="stylesheet" href="./Stylesheets/MembersSec.css">
+<link rel="stylesheet" href="./Stylesheets/productsadmin.css">
 <title>Control Panel</title>
 <script src="./js/sidebar.js"></script>
 <script src="./js/sidescroll.js"></script>
@@ -44,6 +45,9 @@ else if($p == 'members'){
 include('./ControlPanal/members.php');
 }else if($p == 'insights'){
 include('./ControlPanal/Insights.php');
+}
+else if($p == 'products'){
+	include('./ControlPanal/Products/products.php');
 }
  ?>
 </div>
