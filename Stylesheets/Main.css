@@ -12,7 +12,6 @@ body{
 		height:70px;
 		background-color:white;
 		border-bottom:1px solid #f1f1f1;
-
 }
 .logo{
   float:left;
@@ -23,6 +22,10 @@ body{
   float:right;
   margin-right: 60px;
   border-right:1px solid #f1f1f1;
+}
+.nav-buttons a{
+  color:#555;
+  text-decoration: none;
 }
 .but{
   height:100%;

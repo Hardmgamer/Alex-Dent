@@ -29,7 +29,7 @@ include_once('./classes/DB.php');
     <center>
       <!--Product 1-->
     <div onclick='prodBox()' class="product">
-      <div class="prod-img"><img src="./images/products/3.jpeg" width="100%">
+      <div class="prod-img"><img src="./images/products/3.jpg" width="100%">
     </div>
     <div class="prod-text">
       <p>Product Name</p>
@@ -38,7 +38,7 @@ include_once('./classes/DB.php');
     </div>
     <!--Product 2-->
     <div onclick='prodBox()' class="product">
-      <div class="prod-img"><img src="./images/products/2.jpeg" width="100%"></div>
+      <div class="prod-img"><img src="./images/products/2.jpg" width="100%"></div>
     <div class="prod-text">
       <p>Product Name</p>
       <!--<div class="details">View</div>-->
@@ -46,7 +46,7 @@ include_once('./classes/DB.php');
     </div>
     <!--Product 3-->
     <div onclick='prodBox()' class="product">
-      <div class="prod-img"><img src="./images/products/1.jpeg" width="100%"></div>
+      <div class="prod-img"><img src="./images/products/1.jpg" width="100%"></div>
     <div class="prod-text">
       <p>Product Name</p>
       <span class="out"></span>
