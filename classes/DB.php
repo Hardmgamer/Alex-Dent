@@ -10,7 +10,7 @@
 class DB{
 
     private static function connect(){
-        $pdo = new PDO('mysql:host=127.0.0.1;dbname=AlexDent;charset=utf8;collation=utf8_unicode_ci', 'root', '');
+        $pdo = new PDO('mysql:host=localhost;dbname=AlexDent;charset=utf8;collation=utf8_unicode_ci', 'root', '');
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         return $pdo;

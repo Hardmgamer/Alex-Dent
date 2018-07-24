@@ -11,7 +11,6 @@ include_once('./classes/DB.php');
 <body>
   <!--HEADER START-->
   <?php include('./header.html'); ?>
-  <?php include('./footer.html'); ?>
   <!--HEADER END-->
   <!--TOP (AND CATEGORY BUTTONS) START -->
 <div class="timg">
@@ -28,48 +27,22 @@ include_once('./classes/DB.php');
 <div class="p-body">
     <center>
       <!--Product 1-->
-    <div onclick='prodBox()' class="product">
-      <div class="prod-img"><img src="./images/products/3.jpg" width="100%">
-    </div>
-    <div class="prod-text">
-      <p>Product Name</p>
-      <!--<div class="details">View</div>-->
-    </div>
-    </div>
-    <!--Product 2-->
-    <div onclick='prodBox()' class="product">
-      <div class="prod-img"><img src="./images/products/2.jpg" width="100%"></div>
-    <div class="prod-text">
-      <p>Product Name</p>
-      <!--<div class="details">View</div>-->
-    </div>
-    </div>
-    <!--Product 3-->
-    <div onclick='prodBox()' class="product">
-      <div class="prod-img"><img src="./images/products/1.jpg" width="100%"></div>
-    <div class="prod-text">
-      <p>Product Name</p>
-      <span class="out"></span>
-    </div>
-    </div>
-    <!--Product 4-->
-
-    <div onclick='prodBox()' class="product">
-      <div class="prod-img"></div>
-    <div class="prod-text">
-      <p>Product Name</p>
-      <!-- <div class="details">View</div> -->
-    </div>
-    </div>
-    <!--Product 5-->
-
-    <div onclick='prodBox()' class="product">
-      <div class="prod-img"></div>
-    <div class="prod-text">
-      <p>Product Name</p>
-      <!--<div class="details">View</div>-->
-    </div>
-    </div>
+      <?php
+      $Products = DB::query('SELECT * FROM products ORDER BY id DESC');
+        foreach($Products as $product){
+          $out = null;
+          if($product['availability'] != 1 ){
+            $out = '<span class="out"></span>';
+          }
+          echo'<div onclick="prodBox()" class="product">
+            <div class="prod-img"><img src="'.$product['image'].'" width="100%">
+          </div>
+          <div class="prod-text">
+            <p>'.$product['name'].'</p>'.$out.'
+          </div>
+          </div>';
+        }
+        ?>
   </center>
 </div>
 <!--PRODUCTS-BODY END-->
