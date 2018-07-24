@@ -84,7 +84,7 @@
   height:100%;
   padding:40px;
 }
-.Company{
+.Company,.Image1,.Image2,.Image3,.availability{
   font-weight: 800;
   margin-left:30px;
 }
@@ -97,6 +97,15 @@
 }
 .Company::before{
   content:'Company : ';
+}
+.Image1::before{
+  content:'Image1 Link : ';
+}
+.Image2::before{
+  content:'Image2 Link : ';
+}
+.Image3::before{
+  content:'Image3 Link : ';
 }
 .Butt{
 display:inline-block;
@@ -135,12 +144,15 @@ color:#fff;
   background-color:#0c6dc0;;
   color:white;
 }
-.detText h3{
+.detText h3,input[type=text]{
   text-transform: uppercase;
-  color:orange;
+  color:black;
   margin-bottom:5px;
 }
-.detText p{
+.detText p,textarea{
   margin:0;
   margin-left:15px;
+}
+.admin{
+  margin-bottom: 20px;
 }
