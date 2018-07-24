@@ -1,3 +1,8 @@
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
 <?php
   // Send a raw HTTP header
   header ('Content-Type: text/html; charset=UTF-8');
