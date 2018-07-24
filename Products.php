@@ -51,7 +51,7 @@ include_once('./classes/DB.php');
     <div class="details-cont">
       <div id="productImage"></div>
       <div class="text-Details">
-        <h1>Product Name</h1>
+        <h1></h1>
         <ul>
           <li>Info 1</li>
           <li>Info 2</li>
