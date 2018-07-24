@@ -1,10 +1,44 @@
-.body{
-  width:950px;
+.img-zoom-container {
+  position: relative;
+}
+#myimage{
+  width:100%;
+  height:100%;
+}
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  opacity:0;
+  width: 100px;
+  height: 100px;
+}
+.img-zoom-result {
+  position: absolute;
+  top:0;
+  opacity:0;
+  left:100%;
+  border: 1px solid #d4d4d4;
+  width: 300px;
+  height: 300px;
+}
+/**/
+/**/
+/**/
+/**/
+
+.wrapper{
   margin-top:70px;
+  width:80%;
   margin-left:auto;
   margin-right:auto;
-  border:1px solid #000;
+  color:#555;
+}
+.body{
+  width:100%;
+  border:1px solid #e4e4e4;
   padding:10px;
+  padding-top:30px;
+  float:left;
 }
 .imageCont{
   float:left;
@@ -22,14 +56,91 @@
   display:inline-block;
   width:60px;
   height:60px;
-  background-color:red;
   margin:0 5px;
+  cursor:pointer;
+  border:2px solid transparent;
+  transition:border 0.2s;
+}
+.simage:hover{
+  border:2px solid rgba(0,0,0,0.4);
 }
 
+.simage img{
+  width:100%;
+  height:100%;
+}
 .detCont{
   float:left;
   padding-left:20px;
+  max-width:500px;
 }
 .detCont h3{
-  border-bottom:1px solid #000;
+  border-bottom:1px solid #e4e4e4;
+  margin-top:0;
+  display:inline;
+}
+.a-s{
+  width:100%;
+  height:100%;
+  padding:40px;
+}
+.Company{
+  font-weight: 800;
+  margin-left:30px;
+}
+.Company a{
+  color:blue;
+  text-decoration: none;
+}
+.Company a:hover{
+  text-decoration: underline;
+}
+.Company::before{
+  content:'Company : ';
+}
+.Butt{
+display:inline-block;
+padding:10px;
+margin-top:20px;
+color:#fff;
+ background-color:#0c6dc0;
+ text-transform: uppercase;
+ font-weight: 800px;
+ border-radius:4px;
+ transition: background-color 0.2s, border-radius 0.2s;
+}
+.Butt:hover{
+   background-color:#0c96dd;
+   border-radius:2px;
+
+}
+.Butt span{
+  margin-right:5px;
+}
+.details{
+  width:calc(100% - 110px);
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:40px;
+}
+.detTitle{
+  border-bottom:1px solid #e4e4e4;
+  padding-bottom:10px;
+}
+.detTitle p{
+  display:inline;
+  margin:0;
+  margin-left:0;
+  padding:10px;
+  background-color:#0c6dc0;;
+  color:white;
+}
+.detText h3{
+  text-transform: uppercase;
+  color:orange;
+  margin-bottom:5px;
+}
+.detText p{
+  margin:0;
+  margin-left:15px;
 }
