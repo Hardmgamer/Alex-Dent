@@ -112,7 +112,7 @@ color:#fff;
 .Butt:hover{
    background-color:#0c96dd;
    border-radius:2px;
-
+   cursor: pointer;
 }
 .Butt span{
   margin-right:5px;

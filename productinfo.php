@@ -1,6 +1,5 @@
 <?php
 include_once('./classes/DB.php');
-
 if(isset($_GET['prod'])){
 $n = $_GET['prod'];
 $prod = DB::query('SELECT * FROM products WHERE REPLACE(name, " ", "") = :name',array(':name'=>$n));
@@ -23,6 +22,8 @@ $procomp= $prod[0]['company'];
 </head>
 <body>
   <?php include('./header.html'); ?>
+  <input name="name" value="<?php echo $proname; ?>" style="display:none;">
+  <input name="image" value="<?php echo $proimg1; ?>" style="display:none;">
 <div class="wrapper">
   <div class="body">
     <div class="imageCont">
@@ -35,18 +36,19 @@ $procomp= $prod[0]['company'];
       </div>
       <div class="simages">
         <center>
-        <div class="simage"><img onclick="changeImg(this)" src="<?php echo$proimg1; ?>"></div>
+        <div class="simage"><img name="image" onclick="changeImg(this)" src="<?php echo$proimg1; ?>"></div>
         <div class="simage"><img onclick="changeImg(this)" src="<?php echo$proimg2; ?>"></div>
         <div class="simage"><img onclick="changeImg(this)" src="<?php echo$proimg3; ?>"></div>
         </center>
       </div>
     </div>
     <div class="detCont">
-      <h3><?php echo$proname; ?></h3>
+      <h3 name='productname'><?php echo$proname; ?></h3>
       <p><?php echo$prodesc; ?></p>
       <div class="Company"><a href="#"><?php echo$procomp; ?></a></div>
-      <div class="Butt"><span class="fas fa-cart-plus"></span>add to cart</div>
+      <div onclick="addtocart()" class="Butt"><span class="fas fa-cart-plus"></span>add to cart</div>
       <div class="Butt"><span class="fas fa-file-invoice-dollar"></span>Inquiry</div>
+      <div style="color:green;" id="txtHint"><b></b></div>
     </div>
     <div style="clear: both;"></div>
     <div class="details">
@@ -60,7 +62,7 @@ $procomp= $prod[0]['company'];
             <p>
                 <?php echo str_replace('_', '<br>',$prospecs); ?>
             </p>
-      </div>
+        </div>
     </div>
   </div>
   </div>
@@ -79,3 +81,23 @@ $procomp= $prod[0]['company'];
   </script>
   <?php include('./footer.html'); ?>
 </body>
+<script>
+function addtocart(){
+      var name = document.getElementsByName('name')['0'].value;
+      var image = document.getElementsByName('image')['0'].value;
+      if (window.XMLHttpRequest) {
+          // code for IE7+, Firefox, Chrome, Opera, Safari
+          xmlhttp = new XMLHttpRequest();
+      } else {
+          // code for IE6, IE5
+          xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+      }
+      xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+              document.getElementById("txtHint").innerHTML = this.responseText;
+          }
+        };
+      xmlhttp.open("GET","./functions/addtocart.php?name="+name+"&image="+image,true);
+      xmlhttp.send();
+  }
+</script>
