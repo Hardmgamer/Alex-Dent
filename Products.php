@@ -34,19 +34,19 @@ include_once('./classes/DB.php');
           if($product['availability'] != 1 ){
             $out = '<span class="out"></span>';
           }
-          echo'<div onclick="prodBox()" class="product">
+          echo'<a href="./productinfo.php?prod='.str_replace(' ', '', $product['name']).'"><div class="product">
             <div class="prod-img"><img src="'.$product['image'].'" width="100%">
           </div>
           <div class="prod-text">
             <p>'.$product['name'].'</p>'.$out.'
           </div>
-          </div>';
+          </div></a>';
         }
         ?>
   </center>
 </div>
 <!--PRODUCTS-BODY END-->
-<div id="productDet">
+<!-- <div id="productDet">
     <div onclick="HideProdBox()" class="black"></div>
     <div class="details-cont">
       <div id="productImage"></div>
@@ -64,7 +64,7 @@ include_once('./classes/DB.php');
         </center>
       </div>
     </div>
-</div>
+</div> -->
 <?php include('./footer.html');?>
-<script type="text/javascript" src="./js/ProductBox.js"></script>
+<!-- <script type="text/javascript" src="./js/ProductBox.js"></script> -->
 </body>

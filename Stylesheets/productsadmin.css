@@ -1,14 +1,53 @@
-.products{
-  margin-left:130px;
-  margin-top:60px;
+.Image1::before{
+  content:'Image1 Link : ';
 }
-th{
-padding: 20px;
-border-bottom: 1px solid #a5a5a5;
+.Image2::before{
+  content:'Image2 Link : ';
 }
-table{
-  border: 1px solid #a5a5a5;
+.Image3::before{
+  content:'Image3 Link : ';
 }
-.pr a{
-color: green;
+.Image1,.Image2,.Image3,.availability{
+  font-weight: 800;
+  margin-left:30px;
+}
+.Butt{
+  cursor:not-allowed;
+}
+
+.SubButt{
+  border:0;
+  background:#04bc04;
+  cursor:pointer;
+  display: inline-block;
+}
+.SubButt:hover{
+  background: #04a504;
+}
+#txtHint{
+  color:red;
+  display: inline-block;
+}
+.SuccessMsg{
+color:green;
+}
+.imgpr{
+  width:60px;
+  height:0;
+  padding:30px 0;
+  line-height:0px;
+  text-align:center;
+  font-size:15px;
+  border:2px solid rgba(0,0,0,0.2);
+
+}
+.bimgpr{
+  width:250px;
+  height:0px;
+  padding:125px 0;
+  line-height: 0px;
+  text-align:center;
+  font-size:25px;
+  background:#fff;
+  border:1px solid #888;
 }

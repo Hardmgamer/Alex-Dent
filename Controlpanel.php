@@ -11,9 +11,6 @@ if(isset($_GET['page'])){
 <link rel="stylesheet" href="./Stylesheets/icons.css">
 <link rel="stylesheet" href="./Stylesheets/insights.css">
 <link rel="stylesheet" href="./Stylesheets/MembersSec.css">
-<link rel="stylesheet" href="./Stylesheets/productsadmin.css">
-<link rel="stylesheet" href="./Stylesheets/Main.css">
-<link rel="stylesheet" href="./Stylesheets/prodinfo.css">
 <script src="./js/imagezoom.js"></script>
 <title>Control Panel</title>
 <script src="./js/sidebar.js"></script>
