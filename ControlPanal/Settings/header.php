@@ -3,7 +3,7 @@ include_once('./classes/DB.php');
 session_start();
 $data = DB::query('SELECT * FROM header');
 $branches = $_SESSION['branches'];
-var_dump($branches);
+echo sizeof($branches);
 $i =1;
 // session_destroy();
  ?>
@@ -30,7 +30,7 @@ $i =1;
     </select>
       <input type="button" onclick="Selectbranch()">
     <?php
-    foreach ($branches as $branche) {
+    foreach ($branches as $branche[7]) {
       echo "<div class='branches'>
       <span class='spans'>Branch title $i:</span>
         <input type='text' class='header-text'>
