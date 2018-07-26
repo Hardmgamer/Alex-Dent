@@ -1,7 +1,6 @@
 function scroll(){
 var y = window.scrollY;
 var side = document.getElementById('side');
-console.log(y);
 if(y < 55){
 	var z = 55 - y;
 	side.style.top = z + 'px';

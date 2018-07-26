@@ -1,6 +1,15 @@
-
-<div class="header">
-<a href="./"><div class="logo" ><img src="./images/logo.png" height="40px"/></div></a>
+<head>
+  <link rel="stylesheet" href="./Stylesheets/icons.css">
+  <link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
+  <link rel="stylesheet" type="text/css" href="./Stylesheets/resmain.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<div class="header" id="header">
+  <div  onclick="ocmenu()" class="menu-iconr" id="menu-icon">
+    <div class="menu-icon menur-icon"></div>
+  </div>
+  <a href="./"><div class="logo logotext" ><img src="./images/logo.png"/></div></a>
+<a href="./"><div class="logo logo-s" ><img src="./images/logo-s.png"/></div></a>
 <div class="nav-buttons">
   <a href="./about.php"><div class="but"><p>Company</p></a>
     <div class="cont">
@@ -20,4 +29,36 @@
 <input class="searchButton" type="submit" value="Search">
 <div onclick="searchboxhide()" class="CloseSearch"><div style="line-height: 60px;" class="fas fa-times"></div></div>
 </div>
+<div id="sidenav">
+<div class="sidenavcont">
+<div onclick="navbutts(this)" class="sidenavbutt">Company <span class="fas fa-angle-down"></span></div>
+<div class="sidebuttcont">
+<div class="sidenavbutt sidenavbutt-c">Company Overview</div>
+<div class="sidenavbutt sidenavbutt-c">Location Map</div>
+</div>
+<div onclick="navbutts(this)" class="sidenavbutt">Products</div>
+<div onclick="navbutts(this)" class="sidenavbutt">Contact Us</div>
+
+</div>
+</div>
 <script src="./js/SearchBox.js"></script>
+<script src="./js/navmenu.js"></script>
+<script>
+var j = 0;
+function navbutts(butt){
+  butt.style.backgroundColor = '#f8f8f8';
+  setTimeout(function () {
+    butt.style.backgroundColor = '#fff';
+
+  }, 150);
+  if(j == 0){
+  butt.classList.add('bappear');
+
+  j++;
+  }
+  else{
+    butt.classList.remove('bappear');
+    j--;
+  }
+}
+</script>
