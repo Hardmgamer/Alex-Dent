@@ -11,6 +11,7 @@ if(isset($_GET['page'])){
 <link rel="stylesheet" href="./Stylesheets/icons.css">
 <link rel="stylesheet" href="./Stylesheets/insights.css">
 <link rel="stylesheet" href="./Stylesheets/MembersSec.css">
+<link rel="stylesheet" href="./Stylesheets/headeredit.css">
 <script src="./js/imagezoom.js"></script>
 <title>Control Panel</title>
 <script src="./js/sidebar.js"></script>
@@ -48,6 +49,9 @@ include('./ControlPanal/Insights.php');
 }
 else if($p == 'products'){
 	include('./ControlPanal/Products/products.php');
+}
+else if($p == 'header'){
+	include('./ControlPanal/Settings/header.php');
 }
  ?>
 </div>
