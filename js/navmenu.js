@@ -17,3 +17,20 @@ function ocmenu(){ // open/close menu
     i--;
   }
 }
+var j = 0;
+function navbutts(butt){
+  butt.style.backgroundColor = '#f8f8f8';
+  setTimeout(function () {
+    butt.style.backgroundColor = '#fff';
+
+  }, 150);
+  if(j == 0){
+  butt.classList.add('bappear');
+
+  j++;
+  }
+  else{
+    butt.classList.remove('bappear');
+    j--;
+  }
+}

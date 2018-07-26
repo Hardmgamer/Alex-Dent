@@ -1,9 +1,4 @@
-<head>
-  <link rel="stylesheet" href="./Stylesheets/icons.css">
-  <link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
-  <link rel="stylesheet" type="text/css" href="./Stylesheets/resmain.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+
 <div class="header" id="header">
   <div  onclick="ocmenu()" class="menu-iconr" id="menu-icon">
     <div class="menu-icon menur-icon"></div>
@@ -11,16 +6,16 @@
   <a href="./"><div class="logo logotext" ><img src="./images/logo.png"/></div></a>
 <a href="./"><div class="logo logo-s" ><img src="./images/logo-s.png"/></div></a>
 <div class="nav-buttons">
-  <a href="./about.php"><div class="but"><p>Company</p></a>
+  <a href="./about.php"><div class="but"><p>Company</p>
     <div class="cont">
         <a href="./about.php"><div class="but but-c"><p>Company Overview</p></div></a>
         <a href="#"><div class="but but-c"><p>Location Map</p></div></a>
     </div>
-  </div>
-  <a href="./products.php"><div class="but"><p>Products</p></a>
-  </div>
-  <a href="./contact.php"><div class="but"><p>Contact Us</p></a>
-  </div>
+  </div></a>
+  <a href="./products.php"><div class="but"><p>Products</p>
+  </div></a>
+  <a href="./contact.php"><div class="but"><p>Contact Us</p>
+  </div></a>
   <div onclick="searchbox()" class="but search"><li class="fas fa-search" style="line-height: 65px; font-size: 25px; "></li></div>
 </div>
 </div>
@@ -43,22 +38,3 @@
 </div>
 <script src="./js/SearchBox.js"></script>
 <script src="./js/navmenu.js"></script>
-<script>
-var j = 0;
-function navbutts(butt){
-  butt.style.backgroundColor = '#f8f8f8';
-  setTimeout(function () {
-    butt.style.backgroundColor = '#fff';
-
-  }, 150);
-  if(j == 0){
-  butt.classList.add('bappear');
-
-  j++;
-  }
-  else{
-    butt.classList.remove('bappear');
-    j--;
-  }
-}
-</script>

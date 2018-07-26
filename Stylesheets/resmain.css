@@ -5,7 +5,6 @@
     display: block;
     top:calc(50% - 3px) !important;
   }
-
   .menu-icon{
     background:#666 !important;
   }
@@ -26,6 +25,9 @@
     -webkit-user-select:none;
   }
   .nav-buttons{
+    display:none;
+  }
+  .search{
     display:none;
   }
   #searchContainer{
