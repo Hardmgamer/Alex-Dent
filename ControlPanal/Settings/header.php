@@ -2,9 +2,10 @@
 include_once('./classes/DB.php');
 session_start();
 $data = DB::query('SELECT * FROM header');
+if(isset($_SESSION['branches'])){
 $branches = $_SESSION['branches'];
-echo sizeof($branches);
-$i =1;
+// echo sizeof($branches);
+}
 // session_destroy();
  ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
@@ -20,7 +21,7 @@ $i =1;
     <span class="spans">link:</span>
       <input type="text" class="header-text">
     <span class="spans">branches</span>
-    <select name="branch">
+    <select  onchange="Selectbranch()" name="branch">
       <?php
       $brancheschose = array("0","1","2","3","4","5","6","7","8");
         foreach ($brancheschose as $chose) {
@@ -28,19 +29,18 @@ $i =1;
         }
        ?>
     </select>
-      <input type="button" onclick="Selectbranch()">
-    <?php
-    foreach ($branches as $branche[7]) {
-      echo "<div class='branches'>
-      <span class='spans'>Branch title $i:</span>
-        <input type='text' class='header-text'>
-      <span class='spans'>link:</span>
-      <input type='text' class='header-text'></div>";
-       $i++;
-    }
+      <?php
+    // foreach ($branches as $branche[7]) {
+    //   echo "<div class='branches'>
+    //   <span class='spans'>Branch title $i:</span>
+    //     <input type='text' class='header-text'>
+    //   <span class='spans'>link:</span>
+    //   <input type='text' class='header-text'></div>";
+    //    $i++;
+    // }
     ?>
+    <div id="Result"><b></b></div>
     </div>
-    <div style="color:green;" id="txtHint"><b></b></div>
    </div>
  </div>
 </div>
@@ -56,7 +56,7 @@ function Selectbranch(){
       }
       xmlhttp.onreadystatechange = function() {
           if (this.readyState == 4 && this.status == 200) {
-              document.getElementById("txtHint").innerHTML = this.responseText;
+              document.getElementById("Result").innerHTML = this.responseText;
           }
         };
       xmlhttp.open("GET","./functions/brancheselect.php?branch="+branche1,true);

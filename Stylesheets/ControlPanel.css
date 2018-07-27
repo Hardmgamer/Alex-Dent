@@ -5,7 +5,7 @@
 }
 .header{
 		width:100%;
-		padding:15px 0 15px 0;
+		padding:10px 0 10px 0;
 		background-color:white;
 		border-bottom:1px solid #f0f0f0;
     position: relative;
@@ -133,7 +133,6 @@ position: relative;
 #body{
 	width:calc(100% - 301px);
 	float:right;
-	height:600px;
 	 /* background-color: red; */
   transition:width 0.5s;
 }
@@ -148,12 +147,13 @@ position: relative;
 	margin-top: 40px;
 	width: 400px;
 	height: 24px;
-	border-bottom: 1px solid #a5a5a5;
 }
 .Textheading p{
 	margin-top: -23px;
-	margin-left: 19px;
+	margin-left: 11px;
 	font-size: 25px;
+	border-bottom: 1px solid #a5a5a5;
+	display:inline-block;
 }
 ul,ol, a{
 	text-decoration: none;
