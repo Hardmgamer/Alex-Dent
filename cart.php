@@ -1,4 +1,5 @@
 <?php
+   error_reporting(0);
    include_once('./classes/DB.php');
    session_start();
    $prname = $_SESSION['Name'];
