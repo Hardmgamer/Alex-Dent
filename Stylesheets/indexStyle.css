@@ -1,45 +1,50 @@
 .banner{
   width:100%;
-  height:500px;
+  height:40vw;
   position:relative;
   overflow:hidden;
 }
+#b-container{
+  position:relative;
+  transition:left 0.4s, right 0.4s;
+  left:0;
+  right:0;
+}
 .banner-img{
   width:100%;
-  height:500px;
+  height:40vw;
   background-size:cover;
-  background-position-y: -150px;
   position:absolute;
 }
+
 .b-button{
-  width:50px;
-  padding-top:10px;
-  padding-bottom:10px;
+  width:6vw;
+  padding:2vw 0;
   opacity:0.8;
   position: absolute;
   z-index:100;
   text-align:center;
-  font-size:40px;
+  font-size:4vw;
   color:#fff;
   transition:opacity 0.4s;
+  bottom: 1vw;
+  text-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 .b-button:hover{
   opacity:1;
   transition:opacity 0.4s;
 }
 .buttonNext{
-  bottom:80px;
-  left:200px;
+  left:20vw
 }
 
 .buttonPrev{
-  bottom:80px;
-  left:130px;
+  left:13vw;
 }
 .b-text {
   text-shadow: 0px 0px 30px rgba(0,0,0,0.4);
-  top:100px;
-  left:100px;
+  top:6vw;
+  left:10vw;
   position: absolute;
   color:#fff;
   margin:0;
@@ -50,11 +55,11 @@
   font-family:"Cairo", Arial;
 }
 .b-text h1{
-  font-size:60px;
+  font-size:5vw
 }
 .b-text p{
-font-size:30px;
-margin-top:-20px;
+font-size:2.5vw;
+margin-top:-3vw;
 }
 .featured{
   width:25%;
@@ -146,7 +151,7 @@ position:absolute;
   text-align:center;
   text-transform:uppercase;
   font-weight:800;
-  transition: background 0.5s;
+  transition: background-color 0.3s;
   color:#fff;
 }
 a{
@@ -154,7 +159,6 @@ a{
 }
 .prod-but:hover{
 background:rgba(255,255,255,0.2);
-transition: background 0.5s;
 }
 .map-container{
   width:100%;
@@ -193,4 +197,38 @@ transition: background 0.5s;
   max-width:800px;
   overflow:hidden;
   background-color:white;
+}
+
+@media screen and (max-width: 800px) {
+  .banner{
+    height:60vw;
+
+  }
+  .banner-img{
+    height:60vw;
+  }
+  .b-text h1{
+    font-size:6vw
+  }
+  .b-text p{
+  font-size:4vw;
+  margin-top:-2vw;
+  }
+  .b-button{
+    width:8vw;
+    padding:3vw 0;
+    font-size:6vw;
+    opacity:1;
+  }
+  .buttonNext{
+    left:calc(50vw - 4vw + 40px);
+  }
+
+  .buttonPrev{
+    left:calc(50vw - 4vw - 40px);
+  }
+  .featured{
+    width:50%;
+    height:50vw;
+  }
 }

@@ -8,26 +8,28 @@ include_once('./classes/DB.php');
 <link rel="stylesheet" type="text/css" href="./Stylesheets/indexStyle.css">
 <link rel="stylesheet" href="./Stylesheets/icons.css">
 <link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
-<link rel="stylesheet" type="text/css" href="./Stylesheets/resmain.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
-
+<!--  -->
+<!--  -->
 <!--HEADER START-->
 <?php include('./header.html'); ?>
 <!--HEADER END-->
+<!--  -->
+<!--  -->
 
+<!--  -->
+<!--  -->
 <!--SLIDER START-->
 <div class="banner">
-  <div id="b-container" style="position:relative; transition:left 0.4s, right 0.4s; left:0; right:0;">
-    <div style="position:relative;">
+  <div id="b-container">
 <div class="banner-img" style="background-image:url(https://i.pinimg.com/originals/07/58/07/075807a6366fe9692500a7ab235f6a7c.jpg);">
 <div class="b-text">
 <i class="fas fa-plus" style="position:absolute; top:10px; left:-20px;font-size:30px; color:#21d1b6;"></i>
 <h1>Number 1 in Egypt</h1>
 <p>	&amp; Middle East</p>
-</div>
 </div>
 </div>
 
@@ -56,14 +58,22 @@ include_once('./classes/DB.php');
 
 </div>
 <!--SLIDER END-->
+<!--  -->
+<!--  -->
 
+<!--  -->
+<!--  -->
 <!--FEATURED START-->
 <div class="featured" style="background:#9923ff"></div>
 <div class="featured" style="background:#5233fe"></div>
 <div class="featured" style="background:#19f2ff"></div>
 <div class="featured" style="background:#993321"></div>
 <!--FEATURED END-->
+<!--  -->
+<!--  -->
 
+<!--  -->
+<!--  -->
 <!--ABOUT START-->
 <div class="body">
 <div class="about">
