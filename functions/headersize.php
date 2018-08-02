@@ -49,7 +49,7 @@ else if($sizeofarray > $header2){
        <h1>Title ". $i."</h1>
       <div class='title'>
        <span class='spans'>Title:</span>
-        <input type='text' class='header-text' value='".$hname[$i-1]."' name='headname'>
+        <input type='text' class='header-text' name='headname'>
        <span class='spans'>link:</span>
          <input type='text' class='header-text'>
          <span class='spans'>branches</span>

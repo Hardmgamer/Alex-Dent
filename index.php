@@ -1,15 +1,16 @@
 <?php
 include_once('./classes/DB.php');
+include_once('./classes/Count.php');
 ?>
 <head>
-
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <title>Home</title>
 <link rel="stylesheet" type="text/css" href="./Stylesheets/indexStyle.css">
 <link rel="stylesheet" href="./Stylesheets/icons.css">
 <link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<meta name="description" content="A page's description,
+  usually one or two sentences."/>
 </head>
 <body>
 <!--  -->
@@ -77,9 +78,9 @@ include_once('./classes/DB.php');
 <!--ABOUT START-->
 <div class="body">
 <div class="about">
-  <h3>About</h3> <h1>Alex Dent</h1>
+  <h3>About</h3>
   <br>
-  <h4>Alex Dent is an Egyptian Company <br> That Sells &amp; Manufacture Dental Products</h4>
+  <h4>An Egyptian Company <br> That Sells &amp; Manufacture Dental Products</h4>
 </div>
 
 <br>
@@ -123,7 +124,7 @@ include_once('./classes/DB.php');
 <h1>Where to find us ?</h1>
 <center>
 <div class="map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110552.46418856332!2d31.24119019003933!3d30.014917654143453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e5c6469d871%3A0xd9b5b2774fc264b5!2sAlex+Dent!5e0!3m2!1sen!2seg!4v1531125373516" width="800" height="300" frameborder="0" style="border-radius: 10px;"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110552.46418856332!2d31.24119019003933!3d30.014917654143453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583e5c6469d871%3A0xd9b5b2774fc264b5!2sAlex+Dent!5e0!3m2!1sen!2seg!4v1531125373516" width="100%" height="100%" frameborder="0" style="border-radius: 10px;"></iframe>
 </div>
 </center>
 </div>

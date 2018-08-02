@@ -1,4 +1,6 @@
 <?php
+include_once('./classes/DB.php');
+
 if(isset($_GET['page'])){
 	$p = $_GET['page'];
 }else{
@@ -32,8 +34,8 @@ if(isset($_GET['page'])){
 <div class="menu">
 	<a href="?page=dashboard"><div><i class="fas fa-home"></i><p>Dashboard</p></div></a>
 	<a href="?page=settings"><div><i class="fas fa-cog"></i><p>Settings</p></div></a>
-	<div><i class="fab fa-telegram-plane"></i><p class="new-not">Inqueries</p></div>
-	<div><i class="fas fa-chart-line"></i><p>Insights</p></div>
+	<a href="#"><div><i class="fab fa-telegram-plane"></i><p class="new-not">Inqueries</p></div></a>
+	<a href="?page=insights"><div><i class="fas fa-chart-line"></i><p>Insights</p></div></a>
 </div>
 </div>
 <div id="body" class="body-large">
