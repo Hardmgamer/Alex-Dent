@@ -64,16 +64,23 @@ margin-top:-3vw;
 .featured{
   width:25%;
   height:25vw;
-  background:#ff0000;
+  background:#999;
+  background-image: url('../images/featured1.jpg');
+  background-size: cover;
   float:left;
 }
 .body{
-  width:calc(100% - 15vw);
-  padding-left:15vw;
+  width:calc(100%);
   padding-top:3vw;
   padding-bottom:3vw;
   display:inline-block;
   font-family:"Cairo", Arial;
+}
+.about{
+  float:left;
+  width:calc(50% - 1px);
+  text-align:center;
+  border-right:1px solid #f9f9f9;
 }
 .about h3,.about h1{
   display:inline;
@@ -93,6 +100,9 @@ margin-top:-3vw;
 .body li{
   font-size:calc(1vw + 6px);
   color:#3bceba;
+}
+ul{
+  width:max-content;
 }
 .body li div{
   color:#000;

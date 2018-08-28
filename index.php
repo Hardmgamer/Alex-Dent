@@ -9,8 +9,10 @@ include_once('./classes/Count.php');
 <link rel="stylesheet" href="./Stylesheets/icons.css">
 <link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="A page's description,
-  usually one or two sentences."/>
+<meta name="keywords" content="Dent,Alexdent,Dental,Dental products,Dentistry, Alex Dent">
+<meta name="description" content="Alex Dent Official Website"/>
+<meta name="author" content="AlexDent">
+
 </head>
 <body>
 <!--  -->
@@ -26,7 +28,7 @@ include_once('./classes/Count.php');
 <!--SLIDER START-->
 <div class="banner">
   <div id="b-container">
-<div class="banner-img" style="background-image:url(https://i.pinimg.com/originals/07/58/07/075807a6366fe9692500a7ab235f6a7c.jpg);">
+<div class="banner-img" style="background-image:url('./images/banner.jpg');">
 <div class="b-text">
 <i class="fas fa-plus" style="position:absolute; top:10px; left:-20px;font-size:30px; color:#21d1b6;"></i>
 <h1>Number 1 in Egypt</h1>
@@ -35,19 +37,19 @@ include_once('./classes/Count.php');
 </div>
 
 <div style="position:relative; left:100%;">
-<div class="banner-img" style="background-image:url(https://i.pinimg.com/originals/07/58/07/075807a6366fe9692500a7ab235f6a7c.jpg);">
+<div class="banner-img" style="background-image:url('');">
 <div class="b-text">
-<h1>Number 1 in Egypt</h1>
-<p>	&amp; Middle East</p>
+  <h1>....</h1>
+  <p>.</p>
 </div>
 </div>
 </div>
 
 <div style="position:relative; left:200%;">
-<div class="banner-img" style="background-image:url(https://i.pinimg.com/originals/07/58/07/075807a6366fe9692500a7ab235f6a7c.jpg);">
+<div class="banner-img" style="background-image:url('');">
 <div class="b-text">
-<h1>Number 1 in Egypt</h1>
-<p>	&amp; Middle East</p>
+<h1>....</h1>
+<p>.</p>
 </div>
 </div>
 </div>
@@ -65,10 +67,21 @@ include_once('./classes/Count.php');
 <!--  -->
 <!--  -->
 <!--FEATURED START-->
-<div class="featured" style="background:#9923ff"></div>
-<div class="featured" style="background:#5233fe"></div>
-<div class="featured" style="background:#19f2ff"></div>
-<div class="featured" style="background:#993321"></div>
+<a href="#">
+<div class="featured"></div>
+</a>
+
+<a href="#">
+<div class="featured"></div>
+</a>
+
+<a href="#">
+<div class="featured"></div>
+</a>
+
+<a href="#">
+<div class="featured"></div>
+</a>
 <!--FEATURED END-->
 <!--  -->
 <!--  -->
@@ -78,13 +91,15 @@ include_once('./classes/Count.php');
 <!--ABOUT START-->
 <div class="body">
 <div class="about">
+
   <h3>About</h3>
   <br>
-  <h4>An Egyptian Company <br> That Sells &amp; Manufacture Dental Products</h4>
+  <h4>Alex Dent is an Egyptian company <br> that sells &amp; manufacture dental products</h4>
 </div>
-
+<div class="about" style="border-right:none;">
 <br>
 <h2>Why Alex Dent ?</h2>
+<center>
 <ul>
 
   <li><div>Cheap</div> <div style="font-style:Italic;"></div></li>
@@ -92,6 +107,8 @@ include_once('./classes/Count.php');
   <li><div>24-Hour Support</div></li>
 
 </ul>
+</center>
+</div>
 </div>
 <!--ABOUT END-->
 
@@ -110,7 +127,7 @@ include_once('./classes/Count.php');
   </p>
 
   <center>
-    <a href="#"><div class="prod-but">View All</div></a>
+    <a href="./products.php"><div class="prod-but">View All</div></a>
   </center>
 </div>
 </div>
