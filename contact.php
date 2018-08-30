@@ -1,6 +1,7 @@
 <html>
 <head>
   <title>Contact us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="./Stylesheets/Main.css">
   <link rel="stylesheet" type="text/css" href="./Stylesheets/contact.css">
@@ -11,6 +12,7 @@
   <div class="Sectiona">
     <h1>Get in touch with us</h1>
   </div>
+  <center>
   <div class="formcont">
   <form action="/Alexdent/submitcontacting.php" method="post">
     <label for="fname">First Name</label>
@@ -22,12 +24,14 @@
     <label for="email">Phone number</label>
     <input type="tel" id="number" name="phone" placeholder="Number" pattern="[0-9]{10}{+}" maxlength="13">
     <label for="message">Your message</label>
-    <textarea name="message" rows="2" cols="2" placeholder="Your message here"></textarea>
+    <textarea name="message" placeholder="Your message here"></textarea>
     <input type="submit" value="Submit" name="submit">
   </form>
+</center>
+
 </div>
-<div class="texting">
-<p>Alex dent is bla bla bla bla,<br>we are bla bla bla blabla bla bla blabla bla bla blabla bla.<br> bla bla bla blabla bla bla blabla bla bla bla.</p>
-</div>
+<!-- <div class="texting">
+<p>example text</p>
+</div> -->
 </body>
 </html>

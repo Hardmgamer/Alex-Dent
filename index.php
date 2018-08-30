@@ -30,14 +30,14 @@ include_once('./classes/Count.php');
   <div id="b-container">
 <div class="banner-img" style="background-image:url('./images/banner.jpg');">
 <div class="b-text">
-<i class="fas fa-plus" style="position:absolute; top:10px; left:-20px;font-size:30px; color:#21d1b6;"></i>
+<!-- <i class="fas fa-plus" style="position:absolute; top:10px; left:-20px;font-size:30px; color:#21d1b6;"></i> -->
 <h1>Number 1 in Egypt</h1>
 <p>	&amp; Middle East</p>
 </div>
 </div>
 
 <div style="position:relative; left:100%;">
-<div class="banner-img" style="background-image:url('');">
+<div class="banner-img" style="background-image:url('https://onaliternote.files.wordpress.com/2016/11/wp-1480230666843.jpg');">
 <div class="b-text">
   <h1>....</h1>
   <p>.</p>
@@ -46,7 +46,7 @@ include_once('./classes/Count.php');
 </div>
 
 <div style="position:relative; left:200%;">
-<div class="banner-img" style="background-image:url('');">
+<div class="banner-img" style="background-image:url('https://onaliternote.files.wordpress.com/2016/11/wp-1480230666843.jpg');">
 <div class="b-text">
 <h1>....</h1>
 <p>.</p>

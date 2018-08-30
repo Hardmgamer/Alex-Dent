@@ -34,10 +34,13 @@
 input[type=submit]:hover {
     background-color: #0e81e2;
 }
-
+textarea{
+  max-width: 100%;
+  max-height: 300px;
+  min-height: 100px;
+}
 .formcont {
     width: 330px;
-    margin-left: 890px;
     border-radius: 5px;
     padding: 20px;
     color:#666666;
